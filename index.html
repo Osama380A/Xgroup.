@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>X GROUP – Taxi Service</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+    body {
+      font-family: 'Inter', sans-serif;
+      background: linear-gradient(to bottom, #0a0f1c, #002b45);
+      color: #ffffff;
+      line-height: 1.6;
+    }
+    header {
+      background-color: transparent;
+      padding: 2rem 1rem;
+      text-align: center;
+    }
+    header img {
+      width: 120px;
+      margin-bottom: 1rem;
+      filter: drop-shadow(0 0 15px #58a6ff);
+    }
+    header h1 {
+      font-size: 2.5rem;
+      color: #58a6ff;
+      text-shadow: 0 0 10px #1f6feb;
+    }
+    header p {
+      color: #ffffff;
+      font-size: 1.1rem;
+    }
+    nav {
+      background: transparent;
+      display: flex;
+      justify-content: center;
+      padding: 1rem 0;
+      gap: 2rem;
+    }
+    nav a {
+      color: #58a6ff;
+      text-decoration: none;
+      font-weight: 600;
+      font-size: 1rem;
+      transition: color 0.3s, text-shadow 0.3s;
+    }
+    nav a:hover {
+      color: #ffffff;
+      text-shadow: 0 0 8px #58a6ff;
+    }
+    .hero {
+      background: transparent;
+      padding: 5rem 1rem;
+      text-align: center;
+    }
+    .hero h2 {
+      font-size: 2.5rem;
+      color: #ffffff;
+      margin-bottom: 1rem;
+      text-shadow: 0 0 10px #58a6ff;
+    }
+    .content {
+      padding: 4rem 1rem;
+      text-align: center;
+      background-color: transparent;
+    }
+    .content h2 {
+      color: #58a6ff;
+      font-size: 2.2rem;
+      margin-bottom: 1rem;
+      text-shadow: 0 0 8px #1f6feb;
+    }
+    .content p {
+      font-size: 1.1rem;
+      color: #e0e0e0;
+    }
+    .cta-buttons {
+      margin-top: 2rem;
+    }
+    .cta-buttons a {
+      display: inline-block;
+      margin: 0.5rem;
+      padding: 0.75rem 1.5rem;
+      background-color: #003b5c;
+      color: white;
+      border-radius: 10px;
+      text-decoration: none;
+      font-weight: 600;
+      box-shadow: 0 0 12px #1f6feb;
+      transition: background 0.3s, box-shadow 0.3s, transform 0.3s;
+    }
+    .cta-buttons a:hover {
+      background-color: #005b8c;
+      box-shadow: 0 0 16px #58a6ff;
+      transform: scale(1.05);
+    }
+    .car-image {
+      margin-top: 3rem;
+      text-align: center;
+      animation: fadeInUp 1.5s ease-in-out;
+    }
+    .car-image img {
+      width: 90%;
+      max-width: 600px;
+      border-radius: 15px;
+      box-shadow: 0 0 20px #1f6feb;
+      transition: transform 0.4s ease-in-out;
+    }
+    .car-image img:hover {
+      transform: scale(1.03);
+    }
+    @keyframes fadeInUp {
+      from {
+        opacity: 0;
+        transform: translateY(50px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+    footer {
+      background-color: transparent;
+      padding: 2rem 1rem;
+      text-align: center;
+      color: #ffffff;
+      font-size: 0.95rem;
+    }
+    footer span {
+      color: #58a6ff;
+      font-weight: 500;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="26abbdba-2e7f-4506-a851-81833caf5ab1.jpg" alt="X GROUP logo" />
+    <h1>X GROUP</h1>
+    <p>Professionele taxi via Uber & Bolt</p>
+  </header>
+
+  <nav>
+    <a href="#">Home</a>
+    <a href="#diensten">Diensten</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <div class="hero">
+    <h2>Rijd veilig. Rijd met X GROUP.</h2>
+  </div>
+
+  <div class="content" id="diensten">
+    <h2>Onze Diensten</h2>
+    <p>Wij bieden professionele ritten aan via Uber & Bolt, met focus op comfort, veiligheid en betrouwbaarheid.<br> Ook beschikbaar voor luchthavenvervoer en privévervoer.</p>
+    <div class="cta-buttons">
+      <a href="https://www.uber.com" target="_blank">Boek via Uber</a>
+      <a href="https://bolt.eu" target="_blank">Boek via Bolt</a>
+    </div>
+    <div class="car-image">
+      <img src="/mnt/data/84a32b89-a14b-4b84-8db8-4597b9b27e33.png" alt="Toyota C-HR taxi" />
+    </div>
+  </div>
+
+  <footer id="contact">
+    <p>Email: <span>zeen.alhariri@gmail.com</span></p>
+    <p>Telefoon: <span>480693350</span></p>
+    <p>&copy; 2025 X GROUP. Alle rechten voorbehouden.</p>
+  </footer>
+</body>
+</html>
